@@ -1,0 +1,24 @@
+GitHub:
+token name:kssnc_token
+pw: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
+
+
+
+process of git
+1.git clone <repo-link>
+2.cd projectname----------change directory
+3.change what ever you want like 
+adding files, deleting and updating
+4.git status
+untrack,modified ,new and some other
+5.git add . ====just add all the files at a time
+ git add filename
+6.git commit -m "message like whatever changes done pls mention"
+
+
+ if you are not mentioned any user name and email then mention
+a.git config --global user.name "--"
+b.git config --global user.email "--@gmail.com"
+7.git push
+
+8. git log -------to see the history about committed user details
