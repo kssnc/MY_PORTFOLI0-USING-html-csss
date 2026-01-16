@@ -1,2 +1,5 @@
 # MY_PORTFOLI0-USING-html-csss
-changes in colours
+
+This Project is about creating portfolio with HTML and CSS.
+Now I want to add JavaScript file.
+Next I Like to Changes in colors.

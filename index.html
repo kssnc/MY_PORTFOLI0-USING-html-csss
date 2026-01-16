@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shiva Sai Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+
+<header>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+
+    <nav>
+        <button onclick="goToSection('about')">About</button>
+        <button onclick="goToSection('marks')">Marks</button>
+        <button onclick="goToSection('skills')">Skills</button>
+        <button onclick="goToSection('projects')">Projects</button>
+        <button onclick="goToSection('contact')">Contact</button>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="sai photo.jpg" alt="Shiva Sai" height="180">
+        <p>I am <b>Shiva Sai</b>, studying B.Tech 3rd year at SVCE, Tirupati.</p>
+    </section>
+
+    <section id="marks">
+        <h2>Marks</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Semester</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>First</td>
+                <td>I</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>First</td>
+                <td>II</td>
+                <td>9.4</td>
+            </tr>
+            <tr>
+                <td>Second</td>
+                <td>I</td>
+                <td>9.3</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML, CSS, JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Personal Portfolio Website using HTML, CSS & JavaScript</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2024 Shiva Sai</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
